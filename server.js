@@ -4,7 +4,7 @@ const app = express();
 
 app.post("/users",function(req, res) { 
     res.status(200).json({
-        result: "succes",
+        result: "success",
         status: 200
     });
 });
